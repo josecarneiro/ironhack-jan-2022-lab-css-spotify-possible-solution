@@ -1,0 +1,41 @@
+section {
+  padding: 4em;
+}
+
+section h2 {
+  text-decoration: underline;
+  text-align: center;
+  margin-bottom: 2em;
+  font-size: 2em;
+  text-decoration-color: #00b172;
+}
+
+.perk-list {
+  display: flex;
+  flex-direction: column;
+}
+
+@media (min-width: 1000px) {
+  .perk-list {
+    flex-direction: row;
+  }
+}
+
+.perk {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.perk h4 {
+  font-size: 1.5em;
+  color: #00b172;
+}
+
+.perk img {
+  display: block;
+  max-width: 100%;
+  width: 6em;
+}

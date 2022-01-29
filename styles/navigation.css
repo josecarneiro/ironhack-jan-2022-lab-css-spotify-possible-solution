@@ -1,0 +1,20 @@
+nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  display: flex;
+  align-items: center;
+  width: 100%;
+  padding: 0.5em 1em;
+  background-color: white;
+}
+
+nav a {
+  padding: 1em 0.5em;
+}
+
+nav img {
+  display: block;
+  margin-right: auto;
+  height: 3em;
+}

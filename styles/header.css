@@ -1,0 +1,21 @@
+header {
+  padding: 8em 0;
+  background-color: brown;
+  color: white;
+  background-image: url('../images/landing.jpg');
+  background-size: cover;
+  background-position: center center;
+  text-align: center;
+  font-size: 1.5em;
+}
+
+header h1 {
+  font-size: 3.5em;
+  font-weight: normal;
+  margin-bottom: 0.5em;
+}
+
+header p {
+  margin-top: 0.25em;
+  font-weight: lighter;
+}
